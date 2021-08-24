@@ -6,6 +6,7 @@ The intention or motive of this project is to refactoring the existsing codes to
 Building this project to update accessibility standards and coding standards
 This project solves the issue of agency web application is not being searcahble through Search Engines
 I have learned all accessiblity problem and how to resolve the issues.
+<<<<<<< HEAD
 
 # Tools and Technology Needed:
 - Programing launguage (Reference) - HTML https://developer.mozilla.org/en-US/docs/Web/HTML and CSS https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -36,3 +37,5 @@ THEN I find a concise, descriptive title
 ```
 # ## License
 Copyright (c) 707 Tech Corporation - 2021. All rights reserved.
+=======
+>>>>>>> 0b6412b42d8d46ea9a29792cf33abf69ea21230d
