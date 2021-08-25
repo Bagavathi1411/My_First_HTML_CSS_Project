@@ -3,27 +3,28 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Responsive page content-->
+    <link rel="stylesheet" href="./assets/css/style.css">  <!-- rel attribute defines relation ship between html and css style sheet -->
+    <title>The Horiseon</title> <!-- page title added-->
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <header class="header">
+        <h1 role="heading" aria-level="1" tab-index="-1"> Hori<span class="seo">seo</span>n </h1> <!--adding role, tab-index, aria level as part of accessibility-->
         <div>
             <ul>
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <a role="link" alt="Thumbnail image for Search Engine Optimation" href="#search-engine-optimization" aria-label="Search engine optimization">Search Engine Optimization</a> <!--ARIA attributes arial-label and accessibility properties added. Also Alt attributes added-->
                 </li>
                 <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
+                    <a role="link" alt="Thumbnail image for Online Reputation Management" href="#online-reputation-management" aria-label="Online reputation management">Online Reputation Management</a> <!--ARIA attributes arial-label and accessibility properties added. Also Alt attributes added-->
                 </li>
                 <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
+                    <a role="link" alt="Thumbnail image for Social Media Marketing" href="#social-media-marketing" aria-label="Social Media Marketing">Social Media Marketing</a> <!--ARIA attributes arial-label and accessibility properties added. Also Alt attributes added-->
+                </li>          
             </ul>
         </div>
-    </div>
+    </header>
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
